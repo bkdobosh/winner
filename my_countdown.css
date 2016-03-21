@@ -1,0 +1,171 @@
+/*  CSS Document                             */
+/*  Written by Chris Converse for Lynda.com  */
+
+@import url(http://fonts.googleapis.com/css?family=Teko:300,700);
+
+body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
+
+#world-premiere {
+	font-size: 16px;
+	font-family: 'Teko', sans-serif;
+	width: 900px;
+	margin: 25px auto;
+	border: 5px solid rgba(255,255,255,.1);
+	background: #155094 url(satellite_dish.jpg) no-repeat center bottom; 
+	min-height: 3700px;
+}
+
+#world-premiere .heading {
+	background-color: rgba(24, 123, 24, 0.8);
+	padding: 15px 0px 2px 0px;
+	margin: 0px 0px 30px 0px;
+	margin-bottom: 200px;
+}
+
+#world-premiere h1 {
+	font-size: 4.4em;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 70px;
+	margin: 0px 0px 0px -5px;
+	padding: 0px;
+	text-align: center;
+}
+
+#world-premiere h2 {
+	font-size: 1.6em;
+	color: #6fb5f8;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 18px;
+	margin-bottom: 10px;
+	margin-left: .5em;
+	padding: 0px;
+	text-align: center;
+	letter-spacing: 9px;	
+}
+
+#world-premiere h3 {
+	font-size: 1.6em;
+	color: #6fb5f8;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 2px;
+	margin bottom: 1px;
+
+	padding bottom:0px;
+	text-align: center;
+	letter-spacing: 9px;
+}
+
+#world-premiere .heading2 h2{
+	margin-top: -140px;
+	padding-bottom: 150px;
+	letter-spacing: 10px;
+	text-align: center;
+	width:300px;
+	line-height: 30px;
+	margin-left: 300px;
+}
+
+
+h4 {
+ font-size: 1.6em;
+	color: #16F01E;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 1px;
+	margin bottom: 1px;
+    font-family: "new times roman";
+	padding bottom:0px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-decoration: underline;	
+}	
+
+p {
+	font-size: 1.25em;
+	font-family: "new times roman";
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+#world-premiere .my-countdown .countdown-row { display:block; text-align: center; margin-top: -3000px; }
+
+#world-premiere .my-countdown .countdown-section { display: inline-block; width: 25px; }
+
+#world-premiere .my-countdown .countdown-amount {display: block; color: #ffffff; font-size: 5.6em; line-height: 55px;}
+
+#world-premiere .my-countdown .countdown-period { display: block; color: #6fb5f8; font-size: 1.4em; text-transform: uppercase; letter-spacing: 2px; }
+
+
+
+@media screen and (max-width: 525px) {
+
+
+#world-premiere {
+	font-size: 12px;
+	width: 310px;
+	min-height: 3500px;
+	background-size: 310px auto;
+	margin-bottom: -10px;
+}
+
+#world-premiere .heading {
+	padding: 12px 0px 8px 0px;
+	margin-bottom: 20px;
+}
+
+#world-premiere h1 {
+	line-height: 40px;
+	font-size: 3.7em;
+}
+
+#world-premiere h2 {
+	line-height: 22px;
+	letter-spacing: 5px;
+}
+
+
+h4 {
+ font-size: .9em;
+	color: #16F01E;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 2px;
+	margin bottom: 1px;
+    font-family: "new times roman";
+
+	padding: 5px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-decoration: underline;	
+}	
+
+p {
+	font-size: 1.25em;
+	font-family: "new times roman";
+	color: #ffffff;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#world-premiere .heading2 h2{
+	margin-top: 20px;
+	padding-bottom: 80px;
+	letter-spacing: 10px;
+	
+	width:400px;
+	line-height: 30px;
+	margin-left: 10px;
+}
+
+
+}
+
+
